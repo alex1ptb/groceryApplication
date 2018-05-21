@@ -1,17 +1,27 @@
-<body>
-    <form action="#" id="newUser">
+<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+  <div class="container">
+   <div class="jumbotron">
+     <h1 id="create">Create Account</h1>
+      <form action="#" id="newUser">
         <div id="userFullName">
             <input type="text" id="firstName" placeholder="First Name" required>
-        <!-- Should resize middleName box to not be as big -->
-            <input type="text" id="middleName" placeholder="Middle Name">                
+            <!-- Should resize middleName box to not be as big -->
+            <input type="text" size="6" id="middleName" placeholder="M. I.">                
             <input type="text" id="lastName" placeholder="Last Name" required>        
         </div>
-        <input type="email" id="userEmail" placeholder="Email" required>
+        <input type="email" size="30" id="userEmail" placeholder="Email" required>
 
-        <div>
+        <div id="password">
             <input type="password" id="userPassword" placeholder="Password" required>
+<br>
             <input type="password" id="confirmPassword" placeholder="Re-Type Password" required>
         </div>
-        <input type="button" value="Submit">
-    </form>     
-</body>
+    </form>
+     <button class="btn btn-primary" type="submit" form="newUser" value="submit">Submit</button>
+     <p id="login" class="text-center">If you already have an account, login <a href="#">here</a>.</p>
+   </div>
+    <footer>
+      <hr>
+      <p class="text-center">&copy 2018</p>
+    </footer>
+  </div>

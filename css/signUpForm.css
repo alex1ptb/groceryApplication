@@ -1,0 +1,34 @@
+body {
+  background-color: lightgrey;
+}
+
+input {
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+#create {
+  margin-top: -15px;
+  margin-bottom: 10px;
+  color: #FF3B3F;
+  font-family: "Poiret One";
+}
+
+button {
+  margin-top: 5px;
+}
+
+#login {
+  margin-top: 15px;
+  font-family: "Poiret One";
+}
+
+hr {
+  border-color: #FF3B3F;
+}
+
+.jumbotron {
+   margin-top: 25px;
+   background-color: #EFEFEF;
+}
